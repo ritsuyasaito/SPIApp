@@ -14,9 +14,7 @@
 		24162C8D24B7703D006F8C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24162C8C24B7703D006F8C20 /* Assets.xcassets */; };
 		24162C9024B7703D006F8C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24162C8E24B7703D006F8C20 /* LaunchScreen.storyboard */; };
 		5F1D44B2B18DD4DE7D181EE4 /* Pods_SPI_Language.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973155BBC8DF1D9AA80F21A5 /* Pods_SPI_Language.framework */; };
-		861B8AC024CCFC1000AEC256 /* LearnDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B8ABF24CCFC1000AEC256 /* LearnDetailViewController.swift */; };
 		861B8AC224CE31F100AEC256 /* FailedQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861B8AC124CE31F100AEC256 /* FailedQuestionsViewController.swift */; };
-		862DB7D724BD9C6000F9711C /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862DB7D624BD9C6000F9711C /* LearnViewController.swift */; };
 		8634588D24B7879600CA50DE /* StudyHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634588C24B7879600CA50DE /* StudyHomeViewController.swift */; };
 		8634589024B787BF00CA50DE /* DailyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634588F24B787BF00CA50DE /* DailyTestViewController.swift */; };
 		8634589324B78ABC00CA50DE /* questionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8634589224B78ABC00CA50DE /* questionModel.swift */; };
@@ -43,9 +41,7 @@
 		24162C8C24B7703D006F8C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24162C8F24B7703D006F8C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24162C9124B7703D006F8C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		861B8ABF24CCFC1000AEC256 /* LearnDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnDetailViewController.swift; sourceTree = "<group>"; };
 		861B8AC124CE31F100AEC256 /* FailedQuestionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedQuestionsViewController.swift; sourceTree = "<group>"; };
-		862DB7D624BD9C6000F9711C /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		8634588C24B7879600CA50DE /* StudyHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyHomeViewController.swift; sourceTree = "<group>"; };
 		8634588F24B787BF00CA50DE /* DailyTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTestViewController.swift; sourceTree = "<group>"; };
 		8634589224B78ABC00CA50DE /* questionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionModel.swift; sourceTree = "<group>"; };
@@ -123,8 +119,6 @@
 				8634588F24B787BF00CA50DE /* DailyTestViewController.swift */,
 				8634589624B78FF100CA50DE /* DailyTestResultViewController.swift */,
 				8668126024D7A8A8000DC386 /* ListPageViewController.swift */,
-				862DB7D624BD9C6000F9711C /* LearnViewController.swift */,
-				861B8ABF24CCFC1000AEC256 /* LearnDetailViewController.swift */,
 				861B8AC124CE31F100AEC256 /* FailedQuestionsViewController.swift */,
 			);
 			path = Study;
@@ -312,14 +306,12 @@
 				8674440B24BEF0C4000C671D /* listTableViewCell.swift in Sources */,
 				8668126124D7A8A8000DC386 /* ListPageViewController.swift in Sources */,
 				24162C8424B77038006F8C20 /* AppDelegate.swift in Sources */,
-				862DB7D724BD9C6000F9711C /* LearnViewController.swift in Sources */,
 				863458A524B8C7A400CA50DE /* HomeViewController.swift in Sources */,
 				8634589024B787BF00CA50DE /* DailyTestViewController.swift in Sources */,
 				24162C8624B77038006F8C20 /* SceneDelegate.swift in Sources */,
 				863458AB24B8CD0A00CA50DE /* SegueManager.swift in Sources */,
 				8634589724B78FF100CA50DE /* DailyTestResultViewController.swift in Sources */,
 				861B8AC224CE31F100AEC256 /* FailedQuestionsViewController.swift in Sources */,
-				861B8AC024CCFC1000AEC256 /* LearnDetailViewController.swift in Sources */,
 				8634589A24B8568600CA50DE /* settingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
